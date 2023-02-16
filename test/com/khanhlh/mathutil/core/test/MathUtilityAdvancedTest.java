@@ -29,7 +29,7 @@ public class MathUtilityAdvancedTest {
     @Parameterized.Parameters
     public static Object[][] initData() {
         return new Object[][]{
-            {0, 10},
+            {0, 1},
             {1, 1},
             {2, 2},
             {3, 6},
