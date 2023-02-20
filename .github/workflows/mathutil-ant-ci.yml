@@ -22,10 +22,10 @@ jobs: # Những công việc dev làm thường ngày: lấy code, build, chạy
         uses: actions/checkout@v3
 
       - name: Set up JDK 1.8 
-        uses: actions/setup-java@v2 # Khai báo cần dùng JDK để build
+        uses: actions/setup-java@v3 # Khai báo cần dùng JDK để build
         with:
           java-version: '1.8' # Khai báo sử dụng phiên bản JDK 1.8 để build
-     
+          distribution: 'temurin'
       - name: Build project with Ant
         run: ant -noinput -buildfile build.xml # Quá trình build sẽ cần đến file cấu hình build.xml, build-impl.xml
       
