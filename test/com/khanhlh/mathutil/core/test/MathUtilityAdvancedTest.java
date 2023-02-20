@@ -34,7 +34,8 @@ public class MathUtilityAdvancedTest {
             {2, 2},
             {3, 6},
             {4, 24},
-            {5, 120}
+            {5, 120},
+            {6, 720}
         };
     }
 
